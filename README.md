@@ -7,6 +7,11 @@ Exemplos simples para ajudar no aprendizado da linguagem Python.
 - Pyright
 
 ## Comandos Terminal
-- python -V                 Mostra a versão
-- python -c "print(1+5)"    Executa direto no terminal
-- python                    Abre o prompr de comando python
+###  Mostra a versão
+python -V 
+
+### Executa direto no terminal
+python -c "print(1+5)" 
+
+### Abre o prompr de comando python
+python                    
