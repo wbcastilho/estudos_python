@@ -1,0 +1,5 @@
+DEBUG 11/06/2020 20:08:29: Isso é uma mensagem nível debug
+INFO 11/06/2020 20:08:29: Isso é uma mensagem nível info
+WARNING 11/06/2020 20:08:29: Isso é uma mensagem nível warning
+ERROR 11/06/2020 20:08:29: Isso é uma mensagem nível error
+CRITICAL 11/06/2020 20:08:29: Isso é uma mensagem nível critical
