@@ -18,10 +18,10 @@ python
 
 ## Criando Virtualenv no Windows
 - Crie a pasta com o nome do projeto
-- Entre na pasta e execute o comando pelo terminal **python -m venv venv**
+- Entre na pasta e execute o comando pelo terminal **python -m venv venv** ou **python3 -m venv venv**
 - Execute o seguinte comando **. /venv/Script/activate**
 
 ## Criando Virtualenv no Linux
 - Crie a pasta com o nome do projeto
-- Entre na pasta e execute o comando pelo terminal **python -m venv venv**
+- Entre na pasta e execute o comando pelo terminal **python -m venv venv** ou **python3 -m venv venv**
 - Execute o seguinte comando **source venv/bin/activate**
