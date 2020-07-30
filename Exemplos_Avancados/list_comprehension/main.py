@@ -1,9 +1,15 @@
-# List Comprehension
-texto = "Morango do Nordeste"
+# List Comprehensions
 
+# Exemplo 1
+symbols = 'GHYIJOLK'
+codes = [ord(symbol) for symbol in symbols]
+print(codes)
+
+# Exemplo 2
+texto = "Morango do Nordeste"
 print([letra for letra in texto])
 
-# List Comprehension com condicionais
+# Exemplo 3 - List Comprehension com condicionais
 numeros = range(0, 35)
 
 print([numero for numero in numeros if numero % 2 == 0]) 
