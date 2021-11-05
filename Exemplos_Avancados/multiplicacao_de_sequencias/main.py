@@ -1,6 +1,6 @@
 # Usando + e * com sequencias
 
-l = [1, 2, 3]
-print(l * 5)
+lo = [1, 2, 3]
+print(lo * 5)
 
 print(5 * 'abcd')

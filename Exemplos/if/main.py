@@ -11,9 +11,9 @@ else:
 
 
 # Cenário realista
-if horario >= 8 and horario <= 12:
-   print('Loja está aberta')
-elif horario >= 14 and horario <= 18:
+if 8 <= horario <= 12:
+    print('Loja está aberta')
+elif 14 <= horario <= 18:
     print('Loja está aberta')
 else:
     print('Loja está fechada')

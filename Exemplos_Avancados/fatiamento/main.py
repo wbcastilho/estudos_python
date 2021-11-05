@@ -1,10 +1,11 @@
 # Fatiamento
+# fatia[start : stop : interval]
 
-l = [10, 20, 30, 40, 50, 60]
-print(l[:2])    # exibir do inicio até a posição 2
-print(l[2:])    # exibir a partir da posição 2 em diante
-print(l[:3])    # exibir do inicio até a posição 3
-print(l[3:])    # exibir a partir da posição 3 em diante
+lo = [10, 20, 30, 40, 50, 60]
+print(lo[:2])    # exibir do inicio até a posição 2
+print(lo[2:])    # exibir a partir da posição 2 em diante
+print(lo[:3])    # exibir do inicio até a posição 3
+print(lo[3:])    # exibir a partir da posição 3 em diante
 
 
 # objetos slice

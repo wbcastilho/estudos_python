@@ -8,6 +8,10 @@ print(sites[1])
 sites = list(['youtube.com', 'facebook.com', 'instagran.com'])
 print(sites[1])
 
+# Len
+# Retorna a quantidade de intens da lista
+print(len(sites))
+
 # Index
 # Utilizado encontrar a posição de um valor especificado
 pos = sites.index('youtube.com')
