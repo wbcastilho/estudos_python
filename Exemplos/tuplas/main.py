@@ -35,8 +35,8 @@
     (0, 1, [2, 3, 4])
 
     Usando * para capturar itens excedentes
-    >>> a, *body, c, d = range(5)
-    >>> a, body, c, d
+    >>> a, *b, c, d = range(5)
+    >>> a, b, c, d
     (0, [1, 2], 3, 4)
 
     Usando * para capturar itens excedentes

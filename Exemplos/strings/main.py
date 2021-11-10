@@ -84,8 +84,4 @@
     ['a', 'a', 'a', 'b', 'n', 'n']
 """
 
-# Métodos comuns de string
-nome_curso = "Edição de vídeo"
-print(nome_curso.lstrip())
-print(nome_curso.rstrip())
 

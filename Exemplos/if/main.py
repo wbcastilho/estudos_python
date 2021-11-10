@@ -1,19 +1,21 @@
-# TOmando decisões
+"""
+    if
 
-horario = 6
+    >>> horario = 10
+    >>> if 8 <= horario <= 12:
+    ...     print('Loja está aberta')
+    ... elif 14 <= horario <= 18:
+    ...     print('Loja está aberta')
+    ... else:
+    ...     print('Loja está fechada')
+    Loja está aberta
 
-'''if horario < 8:
-    print('Loja ainda não abriu')
-elif horario > 18:
-    print('Loja já fechou')
-else:
-    print('Loja aberta')'''
+    >>> value = 0
+    >>> paz = True if value == 0 else False
+    >>> paz
+    True
+    >>> paz = True if value == 1 else False
+    >>> paz
+    False
 
-
-# Cenário realista
-if 8 <= horario <= 12:
-    print('Loja está aberta')
-elif 14 <= horario <= 18:
-    print('Loja está aberta')
-else:
-    print('Loja está fechada')
+"""
