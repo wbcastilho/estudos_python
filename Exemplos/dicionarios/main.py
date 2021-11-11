@@ -11,6 +11,30 @@
     >>> filme
     {'nome': 'Home-Aranha', 'ano': '2025', 'nota': '8'}
 
+    Percorrer chaves do dicionario
+    >>> carros = {1: 'Fusca', 2: 'Gol', 3: 'Corsa'}
+    >>> for car in carros.keys():
+    ...     print(car)
+    1
+    2
+    3
+
+    Percorrer valores do dicionario
+    >>> carros = {1: 'Fusca', 2: 'Gol', 3: 'Corsa'}
+    >>> for car in carros.values():
+    ...     print(car)
+    Fusca
+    Gol
+    Corsa
+
+    Percorrer chaves e valores do dicionario
+    >>> carros = {1: 'Fusca', 2: 'Gol', 3: 'Corsa'}
+    >>> for key, car in carros.items():
+    ...     print(f'key: {key}, carro: {car}')
+    key: 1, carro: Fusca
+    key: 2, carro: Gol
+    key: 3, carro: Corsa
+
     Selecionando valores em um dicionário
     >>> x = {1: 10, 2: 20, 3: 30}
     >>> x[1]
