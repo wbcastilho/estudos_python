@@ -1,7 +1,7 @@
 import mysql.connector, configparser
 
-class Conexao():
 
+class Conexao:
     @staticmethod
     def conectar():       
         config = configparser.ConfigParser()
