@@ -77,4 +77,23 @@
     >>> meus_contatos.update(contatos_pedro)
     >>> meus_contatos
     {'Yan': '1234-5678', 'Pedro': '9999-9999', 'Juca': '1234-5678', 'Fernando': '4345-5434'}
+
+    dict Comprehensions
+    >>> DIAL_CODES = [
+    ...     (86, 'China'),
+    ...     (91, 'India'),
+    ...     (1, 'United States'),
+    ...     (62, 'Indonesia'),
+    ...     (55, 'Brazil'),
+    ...     (92, 'Pakistan'),
+    ...     (880, 'Bangladesh'),
+    ... ]
+
+    >>> country_code = {country: code for code, country in DIAL_CODES}
+    >>> print(country_code)
+    {'China': 86, 'India': 91, 'United States': 1, 'Indonesia': 62, 'Brazil': 55, 'Pakistan': 92, 'Bangladesh': 880}
+
+    invertendo os pares novamente, com os valores em letras maiúsculas e os itens filtrados com code < 66
+    >>> print({code: country.upper() for country, code in country_code.items() if code < 66})
+    {1: 'UNITED STATES', 62: 'INDONESIA', 55: 'BRAZIL'}
 """

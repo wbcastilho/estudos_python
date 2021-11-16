@@ -9,6 +9,10 @@ def greet_me(**kwargs):
     >>> greet_me(name="yasoob")
     name = yasoob
 
+    >>> greet_me(name="welber", sobrenome="castilho")
+    name = welber
+    sobrenome = castilho
+
     :param kwargs:
     :return:
     """
